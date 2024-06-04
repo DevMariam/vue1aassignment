@@ -1,0 +1,56 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+ html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+ }
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  color: hsla(353, 90%, 45%, 0.8);
+  background-color: rgb(59, 57, 57);
+  background-image: url(../assets/bdg.jpg);
+ image-rendering: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: hsla(0, 3%, 21%, 0.8);
+
+
+}
+
+
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+}
